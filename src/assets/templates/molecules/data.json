@@ -86,18 +86,21 @@
   "mol-our-works-slide": [
     {
       "title": "Єкухня",
-      "url": "http://ekyhnya.com.ua/",
-      "image": "assets/img/e-kitchen.png"
+      "url": "ekyhnya.com.ua",
+      "image": "assets/img/e-kitchen.png",
+      "data-name": "Єкухня"
+    },
+    {
+      "title": "ГалРес",
+      "url": "iteria.com.ua/galres",
+      "image": "assets/img/galres.png",
+      "data-name": "ГалРес"
     },
     {
       "title": "Єкухня",
-      "url": "http://ekyhnya.com.ua/",
-      "image": "assets/img/e-kitchen.png"
-    },
-    {
-      "title": "Єкухня",
-      "url": "http://ekyhnya.com.ua/",
-      "image": "assets/img/e-kitchen.png"
+      "url": "ekyhnya.com.ua",
+      "image": "assets/img/e-kitchen.png",
+      "data-name": "Єкухня"
     }
   ]
 }

@@ -1,4 +1,6 @@
-$(function() {
+$(function () {
+    var nextWork = '';
+    var prevWork = '';
     var slickParameters = {
         dots: false,
         arrows: false,
@@ -44,11 +46,11 @@ $(function() {
 
     slickUnslickClients();
 
-    $('.our-works-left-arrow').click(function(){
+    $('.our-works-left-arrow').click(function () {
         $('.our-works__slider').slick('slickPrev');
     });
 
-    $('.our-works-right-arrow').click(function(){
+    $('.our-works-right-arrow').click(function () {
         $('.our-works__slider').slick('slickNext');
     });
 
@@ -61,7 +63,56 @@ $(function() {
         slidesToShow: 1,
         slidesToScroll: 1
     });
-});
+
+
+    // function dataImgName() {
+    //
+    //     var dataNamePrev = $('.our-works__slider .slick-current .mask-container img').data('name');
+    //     $('.our-works-left-arrow').text(dataNamePrev);
+    //
+    //     var dataNameNext = $('.our-works__slider .slick-current .mask-container img').data('name');
+    //     $('.our-works-right-arrow').text(dataNameNext);
+    //
+    // }
+    // $('.our-works-left-arrow').click( dataImgName());
+    // $('.our-works-right-arrow').click( dataImgName());
+
+
+    // $('.our-works__slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
+    //     var test = $('.our-works__slider .slick-current');
+    //     console.log($(slick.$slides.get(currentSlide.test)).data('data-slick-index'));
+    // });
+
+    // $('.our-works-left-arrow').on('click', function (e) {
+    //     var currentIndex = $('.our-works__slider .slick-current .mask-container img').data('name');
+    //     $('.prev-work').text(currentIndex);
+    //
+    // });
+
+        // $('.our-works-right-arrow').on('click', function (e) {
+        //     var currentIndex = $('.our-works__slider .slick-current .mask-container img').data('name');
+        //     var currentIndex2 = $('.our-works__slider .slick-current').data('data-slick-index');
+        //     $('.next-work').html(currentIndex);
+        //     console.log(currentIndex);
+        // });
+
+    function getWorks(index1, index2) {
+        prevWork = $('.our-works__slider *[data-slick-index="'+ index1 +'"] .mask-container img').attr('data-name');
+        nextWork = $('.our-works__slider *[data-slick-index="'+ index2 +'"] .mask-container img').attr('data-name');
+        $('.next-work').text(nextWork);
+        $('.prev-work').text(prevWork);
+    }
+
+    getWorks(-1, 1);
+
+    $('.our-works__slider').on('afterChange', function(event, slick, currentSlide){
+        getWorks((+currentSlide-1), (+currentSlide+1));
+    });
+
+
+
+
+    });
 
 
 

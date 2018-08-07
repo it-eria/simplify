@@ -118,17 +118,20 @@
         {
           "title": "Єкухня",
           "url": "ekyhnya.com.ua",
-          "image": "assets/img/e-kitchen.png"
+          "image": "assets/img/e-kitchen.png",
+          "data-name": "Єкухня"
         },
         {
           "title": "ГалРес",
           "url": "iteria.com.ua/galres",
-          "image": "assets/img/galres.png"
+          "image": "assets/img/galres.png",
+          "data-name": "ГалРес"
         },
         {
           "title": "Єкухня",
           "url": "ekyhnya.com.ua",
-          "image": "assets/img/e-kitchen.png"
+          "image": "assets/img/e-kitchen.png",
+          "data-name": "Єкухня"
         }
       ]
     },
