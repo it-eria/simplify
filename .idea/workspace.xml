@@ -19,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8361111">
+    <splitter split-orientation="horizontal" split-proportion="0.45972222">
       <split-first>
         <leaf>
           <file leaf-file-name="logotype.mustache" pinned="false" current-in-tab="false">
@@ -55,8 +55,8 @@
           <file leaf-file-name="_organisms.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/_organisms.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="793">
-                  <caret line="679" column="0" lean-forward="true" selection-start-line="679" selection-start-column="0" selection-end-line="679" selection-end-column="0" />
+                <state relative-caret-position="742">
+                  <caret line="676" column="49" lean-forward="true" selection-start-line="676" selection-start-column="49" selection-end-line="676" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -66,11 +66,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+          <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/data.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="153">
-                  <caret line="85" column="2" lean-forward="true" selection-start-line="85" selection-start-column="2" selection-end-line="104" selection-end-column="3" />
+                  <caret line="104" column="3" lean-forward="false" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
                   <folding>
                     <element signature="n#!!block;n#mol-language#0;n#!!top" expanded="false" />
                     <element signature="e#107#341#0" expanded="false" />
@@ -104,21 +104,22 @@
           <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/assets/templates/pages/data.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="121" column="30" lean-forward="false" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="30" />
+                <state relative-caret-position="204">
+                  <caret line="116" column="6" lean-forward="true" selection-start-line="116" selection-start-column="6" selection-end-line="135" selection-end-column="7" />
                   <folding>
                     <element signature="n#!!block;n#head#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#org-header-nav#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#org-who-we-are#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#org-our-approach#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#org-clients#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
+                    <element signature="e#2989#3492#0" expanded="false" />
                     <element signature="n#!!block;n#foot#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/assets/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="589">
@@ -139,13 +140,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/assets/templates/molecules/logotype.mustache" />
-        <option value="$PROJECT_DIR$/src/assets/templates/molecules/data.json" />
-        <option value="$PROJECT_DIR$/src/assets/templates/organisms/data.json" />
         <option value="$PROJECT_DIR$/src/assets/templates/molecules/our-works-slide.mustache" />
-        <option value="$PROJECT_DIR$/src/assets/templates/pages/data.json" />
         <option value="$PROJECT_DIR$/src/assets/js/script.js" />
         <option value="$PROJECT_DIR$/src/assets/templates/organisms/our-works.mustache" />
         <option value="$PROJECT_DIR$/src/assets/templates/organisms/_organisms.scss" />
+        <option value="$PROJECT_DIR$/src/assets/templates/pages/data.json" />
+        <option value="$PROJECT_DIR$/src/assets/templates/organisms/data.json" />
+        <option value="$PROJECT_DIR$/src/assets/templates/molecules/data.json" />
       </list>
     </option>
   </component>
@@ -275,12 +276,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533639323436</updated>
-      <workItem from="1533639327571" duration="10575000" />
+      <workItem from="1533639327571" duration="11185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10575000" />
+    <option name="totallyTimeSpent" value="11185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -290,7 +291,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -327,60 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="85" column="2" lean-forward="true" selection-start-line="85" selection-start-column="2" selection-end-line="104" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!block;n#mol-language#0;n#!!top" expanded="false" />
-            <element signature="e#107#341#0" expanded="false" />
-            <element signature="e#369#946#0" expanded="false" />
-            <element signature="n#!!block;n#mol-title-h2-default#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mol-approach-description#0;n#!!top" expanded="false" />
-            <element signature="e#1428#1650#0" expanded="false" />
-            <element signature="e#1673#2055#0" expanded="false" />
-            <element signature="e#2082#2509#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="129" column="5" lean-forward="false" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!block;n#org-header-nav#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#org-who-we-are#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#org-our-approach#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#org-clients#0;n#!!top" expanded="false" />
-            <element signature="e#2703#3168#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/templates/pages/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="121" column="30" lean-forward="false" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!block;n#head#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#org-header-nav#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#org-who-we-are#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#org-our-approach#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#org-clients#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#foot#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="107" column="59" lean-forward="false" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/our-works-slide.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -407,9 +354,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/_organisms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="679" column="0" lean-forward="true" selection-start-line="679" selection-start-column="0" selection-end-line="679" selection-end-column="0" />
+        <state relative-caret-position="742">
+          <caret line="676" column="49" lean-forward="true" selection-start-line="676" selection-start-column="49" selection-end-line="676" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="107" column="59" lean-forward="false" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/templates/pages/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="116" column="6" lean-forward="true" selection-start-line="116" selection-start-column="6" selection-end-line="135" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!block;n#head#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#org-header-nav#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#org-who-we-are#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#org-our-approach#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#org-clients#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
+            <element signature="e#2989#3492#0" expanded="false" />
+            <element signature="n#!!block;n#foot#0;n#!!block;n#p-index#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="129" column="5" lean-forward="false" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#org-header-nav#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#org-who-we-are#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#org-our-approach#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#org-clients#0;n#!!top" expanded="false" />
+            <element signature="e#2703#3168#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="104" column="3" lean-forward="false" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!block;n#mol-language#0;n#!!top" expanded="false" />
+            <element signature="e#107#341#0" expanded="false" />
+            <element signature="e#369#946#0" expanded="false" />
+            <element signature="n#!!block;n#mol-title-h2-default#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mol-approach-description#0;n#!!top" expanded="false" />
+            <element signature="e#1428#1650#0" expanded="false" />
+            <element signature="e#1673#2055#0" expanded="false" />
+            <element signature="e#2082#2509#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
