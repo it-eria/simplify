@@ -1,0 +1,28 @@
+{{#org-header-nav}}
+    <header class="header-nav">
+        <div class="container position-relative d-flex align-items-center justify-content-between flex-wrap flex-lg-nowrap">
+            {{> ../molecules/logotype}}
+            <div class="header-nav__menu">
+                <nav class="nav-bar">
+                    <input type="checkbox" id="drop-down-cbox"/>
+                    <label for="drop-down-cbox">
+                        <div class="mob-menu-burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </label>
+                    <ul class="main-nav small-caps d-flex align-items-start justify-content-lg-around m-0">
+                        {{> ../molecules/menu-list}}
+                    </ul>
+                    {{#language1}}
+                        {{> ../molecules/language}}
+                    {{/language1}}
+                </nav>
+            </div>
+            {{#language2}}
+                {{> ../molecules/language}}
+            {{/language2}}
+        </div>
+    </header>
+{{/org-header-nav}}

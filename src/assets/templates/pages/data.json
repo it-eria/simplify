@@ -1,0 +1,144 @@
+{
+  "p-index": {
+    "head": {
+      "title": "Home page"
+    },
+
+    "org-header-nav": {
+      "mol-logotype": true,
+      "language1": {
+        "mol-language": {
+          "add-class": "d-block d-lg-none"
+        }
+      },
+      "language2": {
+        "mol-language": {
+          "add-class": "d-lg-block d-none"
+        }
+      },
+      "mol-menu-list": [
+        {
+          "url": "#1",
+          "value": "Our work"
+        },
+        {
+          "url": "#2",
+          "value": "About us"
+        },
+        {
+          "url": "#3",
+          "value": "News"
+        },
+        {
+          "url": "#4",
+          "value": "Contact us"
+        }
+      ]
+
+    },
+    "org-who-we-are": {
+      "mol-title-h2-default": {
+        "title": "WHO WE ARE?"
+      },
+      "mol-who-we-are-block": [
+        {
+          "title": "Experience Design",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          "title": "Branding",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          "title": "Development",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    "org-our-approach": {
+      "mol-title-h2-default": {
+        "title": "OUR APPROACH"
+      },
+      "mol-approach-description": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+      },
+      "mol-our-approach-item": [
+        {
+          "title": "Discover",
+          "img": ""
+        },
+        {
+          "title": "Design",
+          "img": ""
+        },
+        {
+          "title": "Build",
+          "img": ""
+        },
+        {
+          "title": "Improve",
+          "img": ""
+        }
+      ]
+    },
+    "org-clients": {
+      "mol-client-item": [
+        {
+          "logo": "assets/img/clients-1.png"
+        },
+        {
+          "logo": "assets/img/clients-2.png"
+        },
+        {
+          "logo": "assets/img/clients-3.png"
+        },
+        {
+          "logo": "assets/img/clients-4.png"
+        },
+        {
+          "logo": "assets/img/clients-5.png"
+        },
+        {
+          "logo": "assets/img/clients-6.png"
+        },
+        {
+          "logo": "assets/img/clients-7.png"
+        }
+      ],
+      "mol-title-h2-default": {
+        "title": "CLIENTS"
+      }
+    },
+    "org-our-works": {
+      "mol-title-h2-default": {
+        "title": "Our works"
+      },
+      "mol-our-works-slide": [
+        {
+          "title": "Єкухня",
+          "url": "ekyhnya.com.ua",
+          "image": "assets/img/e-kitchen.png"
+        },
+        {
+          "title": "ГалРес",
+          "url": "iteria.com.ua/galres",
+          "image": "assets/img/galres.png"
+        },
+        {
+          "title": "Єкухня",
+          "url": "ekyhnya.com.ua",
+          "image": "assets/img/e-kitchen.png"
+        }
+      ]
+    },
+
+    "foot": {
+      "vendor-scripts": {
+        "bootstrap": true,
+        "jquery": true,
+        "slick-slider": true
+      }
+    }
+  }  
+}

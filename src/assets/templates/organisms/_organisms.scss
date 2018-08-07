@@ -1,0 +1,645 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: 'GothamPro-Medium';
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.small-caps {
+  font-size: 1.25rem;
+  font-family: 'GothamPro-Medium';
+  width: 100%;
+  max-width: 700px;
+  padding: 0;
+  margin: 0;
+  li {
+    list-style-type: none;
+    &:after {
+      width: 4px;
+      height: 4px;
+      content: url(../img/transparent-dot.png);
+    }
+    &:hover {
+      &:after {
+        content: url(../img/dot.png);
+      }
+    }
+    a {
+      text-decoration: none;
+      color: #060505;
+      font-family: 'GothamPro-Light';
+      font-weight: 100;
+      padding: 0 5px 0 0;
+
+      &:hover {
+        text-decoration: none;
+        font-family: 'GothamPro-Light';
+        font-weight: 600;
+
+      }
+    }
+
+  }
+
+  .current-menu-item {
+    &:after {
+      width: 4px;
+      height: 4px;
+      content: url(../img/dot.png);
+    }
+  }
+
+}
+
+/* Hide checkbox that controls Mobile Nav Button*/
+#drop-down-cbox {
+  display: none;
+
+}
+
+/* Mobile Nav Button */
+#drop-down-cbox + label {
+  position: absolute;
+  display: none;
+  width: 60px;
+  right: 0;
+  top: 15px;
+  overflow: hidden;
+  background-color: transparent;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/* Mobile Nav Button Bars Invididually */
+#drop-down-cbox + label span:nth-child(1) {
+  top: 35%; /* evenly spaced */
+}
+
+#drop-down-cbox + label span:nth-child(2) {
+  top: 50%; /* evenly spaced */
+}
+
+#drop-down-cbox + label span:nth-child(3) {
+  top: 65%; /* evenly spaced */
+}
+
+/* Mobile Nav Button Styling for Checked */
+#drop-down-cbox:checked + label {
+
+}
+
+#drop-down-cbox:checked + label span {
+  //background-color: red;
+}
+
+/* Transform the bars into an 'X' */
+#drop-down-cbox:checked + label span:nth-child(1) {
+
+}
+
+#drop-down-cbox:checked + label span:nth-child(2) {
+  left: 0; /* move center bar out of the picture */
+}
+
+.main-nav li > ul {
+  max-height: 0px; /* max-height instead of height, height can't transition to auto */
+  transition: all 500ms ease-in-out;
+  overflow: hidden; /* make it so nav doesn't show beyond the 0px max-height */
+}
+
+.main-nav li:hover > ul {
+  max-height: 180px; /* height x how many links */
+  height: auto;
+}
+
+.main-nav li > ul li a,
+.main-nav li > ul li span {
+  background-color: white;
+}
+
+.main-nav li > ul li a:hover,
+.main-nav li > ul li span:hover {
+
+  border-bottom: none;
+}
+
+/* Tablet and Mobile View */
+
+.logotype {
+  position: relative;
+  display: block;
+  height: auto;
+  z-index: 99;
+  width: 169px;
+}
+
+.header-nav {
+  padding: 15px 0;
+  box-shadow: 0 0 10px #ccc;
+  &__menu {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .logotype {
+
+  }
+
+  &__language {
+    white-space: nowrap;
+    a {
+      font-family: "GothamPro-Light";
+      color: #000;
+      &:hover {
+        font-weight: 600;
+        text-decoration: none;
+        &:after {
+          content: url(../img/dot.png);
+
+        }
+      }
+
+      &:after {
+        content: url(../img/transparent-dot.png);
+
+      }
+      span {
+        padding: 0 5px 0 0;
+      }
+
+    }
+
+    .active {
+      font-weight: 600;
+      text-decoration: none;
+      &:after {
+        content: url(../img/dot.png);
+
+      }
+    }
+  }
+}
+
+.mob-menu-burger {
+  display: flex !important;
+  span {
+    width: 4px !important;
+    position: relative !important;
+    height: 4px !important;
+    margin: 4px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+}
+
+.default-title {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  h2 {
+    font-size: 40px;
+    margin: 0 0 60px 0;
+    max-width: none;
+    cursor: pointer;
+    &:first-letter {
+      color: #ea1d25;
+    }
+  }
+}
+
+.who-we-are {
+  padding: 90px 0;
+
+  .default-title {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    h2 {
+      font-size: 40px;
+      margin: 0 0 60px 0;
+      max-width: none;
+      cursor: pointer;
+      font-family: "GothamPro-Medium";
+      display: block;
+      &:first-letter {
+        color: #ea1d25;
+        display: block;
+      }
+    }
+  }
+  &__global-block {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    &__default {
+      width: 100%;
+      max-width: 340px;
+      height: auto;
+      position: relative;
+      min-height: 180px;
+      img {
+        margin: 0 0 0 20px;
+      }
+      h2 {
+        font-size: 20px;
+        color: #060405;
+        margin: 0 0 20px 0;
+        font-family: "GothamPro-Bold";
+        &:after {
+          content: url(../img/dot.png);
+          margin-left: 10px;
+        }
+      }
+
+      p {
+        font-size: 1rem;
+        margin: 0;
+        color: #171616;
+        padding: 0;
+        font-family: "GothamPro-Light";
+      }
+    }
+    &__see-more {
+      display: flex;
+      justify-content: flex-end;
+      &__btn {
+        justify-content: flex-end;
+        margin: 20px 0 0 0;
+        text-decoration: none;
+        color: #242223;
+        font-family: "GothamPro-Medium";
+        &:hover {
+          justify-content: flex-end;
+          margin: 20px 0 0 0;
+          text-decoration: none;
+          color: #242223;
+        }
+      }
+    }
+  }
+}
+
+.our-approach {
+  padding: 80px 0;
+  .default-title {
+    h2 {
+      margin-bottom: 35px;
+    }
+  }
+  &__description-approach {
+    p {
+      font-family: "GothamPro-Light";
+      font-size: 1rem;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    &__item {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+
+      }
+
+      .bg-gray {
+        background-color: #e6e6e5;
+        min-height: 100px;
+        width: 100px;
+      }
+
+      p {
+        margin: 20px 0 0 0;
+        font-size: 20px;
+        color: #060405;
+        font-family: "GothamPro-Light";
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.our-works {
+  display: flex;
+  &__top-navigation {
+    padding-bottom: 160px;
+    .default-title {
+      h2 {
+        text-transform: uppercase;
+        margin-bottom: 0;
+      }
+    }
+
+    .our-works-left-arrow {
+      cursor: pointer;
+      font-size: 22px;
+      transition: all .2s ease-in-out;
+      &:hover {
+        color: red;
+      }
+    }
+
+    .our-works-right-arrow {
+      cursor: pointer;
+      font-size: 22px;
+      transition: all .2s ease-in-out;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  &__slider {
+    &__item {
+
+      outline: none;
+      .description {
+        .info {
+          max-width: 400px;
+
+          h1 {
+            font-size: 5rem;
+            font-family: "GothamPro-Bold";
+            &:first-letter {
+              margin-right: 20px;
+              color: red;
+            }
+          }
+
+          a {
+            font-size: 1rem;
+            color: #000;
+            font-family: "GothamPro-Light";
+            text-decoration: underline;
+            font-weight: 600;
+          }
+        }
+      }
+
+      .mask-container {
+        position: relative;
+        cursor: pointer;
+        &:hover {
+          &:before {
+            width: 0;
+            transition: all .3s ease-in-out;
+          }
+          &:after {
+            width: 0;
+            transition: all .3s ease-in-out;
+          }
+        }
+        &:before {
+          width: 65%;
+          height: 100%;
+          content: "";
+          transition: all .5s ease-in-out;
+          position: absolute;
+          background-color: rgba(255, 255, 255, 0.8);
+          top: 0;
+          left: 0;
+          z-index: 99;
+        }
+
+        &:after {
+          width: 25%;
+          height: 100%;
+          content: "";
+          transition: all .5s ease-in-out;
+          position: absolute;
+          background-color: rgba(255, 255, 255, 0.8);
+          top: 0;
+          right: 0;
+          z-index: 99;
+        }
+        img {
+          width: 100%;
+        }
+      }
+
+    }
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .who-we-are {
+    padding: 40px 0;
+  }
+
+  .who-we-are__global-block__default h2:after {
+    content: url(../img/transparent-dot.png);
+    margin-right: 10px;
+  }
+
+  .who-we-are__global-block__default h2:before {
+    content: url(../img/dot.png);
+    margin-right: 10px;
+    top: -3px;
+    position: relative;
+  }
+
+  .who-we-are__global-block__default {
+    max-width: none;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .client-block .slick-track {
+    display: flex;
+  }
+  .client-block__brands-block__logo {
+    margin: 0 0 40px 0;
+  }
+
+  .our-approach {
+    padding: 40px 0 55px 0;
+  }
+
+  .our-approach__wrapper {
+    margin-top: 30px;
+  }
+
+  .our-approach__wrapper__item {
+    margin-bottom: 30px;
+  }
+
+  .our-approach__description-approach p {
+    font-size: .75rem;
+  }
+
+  .our-approach__wrapper__item p {
+    font-size: .875rem;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .who-we-are__global-block__see-more__btn {
+    font-size: .75rem;
+  }
+
+  .who-we-are__global-block__default {
+    min-height: auto;
+    margin-bottom: 30px;
+
+  }
+
+  .who-we-are__global-block__default p {
+    font-size: .75rem;
+  }
+
+  .who-we-are__global-block__default h2 {
+    font-size: .875rem;
+    margin-bottom: 8px;
+  }
+
+  .default-title h2 {
+    font-size: 1.25rem !important;
+    margin-bottom: 20px !important;
+  }
+  #drop-down-cbox ~ .header-nav__language {
+    display: none !important;
+  }
+
+  #drop-down-cbox:checked ~ .header-nav__language {
+    display: block !important;
+  }
+
+  #drop-down-cbox + label {
+    transform: rotate(90deg);
+    top: 22px;
+
+  }
+
+  #drop-down-cbox:checked + label {
+    transform: rotate(0deg);
+    top: 10px;
+  }
+
+  .header-nav__language {
+    margin-top: 35px;
+  }
+
+  .small-caps {
+    li {
+      width: 100%;
+      border-top: 1px solid #ccc;
+      margin-top: -1px;
+      border-bottom: 1px solid #ccc;
+      position: relative;
+      a {
+        text-decoration: none;
+        color: #060505;
+        font-weight: 400;
+
+        display: inline-block;
+        font-size: 1rem;
+        text-transform: uppercase;
+        padding: 15px 5px 15px 0;
+        &:first-letter {
+          color: red;
+
+        }
+      }
+    }
+
+  }
+
+  .logotype {
+    width: 125px;
+  }
+
+  .site-logo {
+    font-size: 1.5rem;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  #drop-down-cbox + label {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-bottom: 0;
+  }
+
+  .main-nav {
+    max-height: 0;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    padding-left: 0;
+    left: 0;
+    width: 100%;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+
+  #drop-down-cbox:checked ~ .main-nav {
+    max-height: 500px;
+    transition: all 500ms ease-in-out;
+    margin-top: 35px !important;
+  }
+
+  .main-nav li span {
+    position: relative;
+  }
+
+  .main-nav li > ul li {
+    position: relative;
+  }
+
+}
+
+.client-block {
+  border-bottom: 1px solid #ebeaea;
+  &__brands-block {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    &__logo {
+      display: flex !important;
+      position: relative;
+      width: 220px;
+      outline: none;
+      height: auto;
+      justify-content: center;
+      margin: 0 0 70px 0;
+      align-items: center;
+      img {
+
+      }
+    }
+  }
+}
+
+
+
+
+
+

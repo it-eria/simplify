@@ -1,0 +1,17 @@
+{{#mol-our-works-slide}}
+
+    {{#image}}
+        <div class="our-works__slider__item d-flex flex-row align-items-center">
+            <div class="col-4 description">
+                <div class="info text-right">
+                    {{#title}} <h1>{{title}}</h1>{{/title}}
+                    {{#url}}<a href="{{{url}}}">{{{url}}}</a>{{/url}}
+                </div>
+
+            </div>
+            <div class="col-8 mask-container">
+                <img src="{{{image}}}" alt="img" class="img">
+            </div>
+        </div>
+    {{/image}}
+{{/mol-our-works-slide}}

@@ -1,0 +1,44 @@
+/* Variables */
+$fontPath: '../fonts/';
+
+/* Font faces */
+@font-face {
+  font-family: 'ArialNova';
+  src: url('#{$fontPath}/ArialNova.ttf') format('truetype');
+}
+
+/* ArialNova */
+@font-face {
+  font-family: 'ArialNova';
+  src: url('#{$fontPath}/ArialNova.ttf') format('truetype');
+}
+
+/* ArialNova-Bold */
+@font-face {
+  font-family: 'ArialNova-Bold';
+  src: url('#{$fontPath}/ArialNova-Bold.ttf') format('truetype');
+}
+
+/* ArialNova-Light */
+@font-face {
+  font-family: 'ArialNova-Light';
+  src: url('#{$fontPath}/ArialNova-Light.ttf') format('truetype');
+}
+
+/* GothamPro-Bold */
+@font-face {
+  font-family: 'GothamPro-Bold';
+  src: url('#{$fontPath}/GothamPro-Bold.ttf') format('truetype');
+}
+
+/* GothamPro-Light */
+@font-face {
+  font-family: 'GothamPro-Light';
+  src: url('#{$fontPath}/GothamPro-Light.ttf') format('truetype');
+}
+
+/* GothamPro-Medium */
+@font-face {
+  font-family: 'GothamPro-Medium';
+  src: url('#{$fontPath}/GothamPro-Medium.ttf') format('truetype');
+}
