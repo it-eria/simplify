@@ -1,13 +1,15 @@
 {{#mol-our-works-slide}}
 
     {{#image}}
-        <div class="our-works__slider__item d-flex align-items-center  flex-lg-row flex-column-reverse">
-            <div class="col-12 col-lg-4 description">
+        <div class="our-works__slider__item d-flex flex-lg-row flex-column-reverse row p-0">
+            <div class="col-12 col-lg-4 description align-items-center d-flex flex-lg-wrap">
                 <div class="info text-right">
                     {{#title}} <h1>{{title}}</h1>{{/title}}
                     {{#url}}<a href="{{{url}}}">{{{url}}}</a>{{/url}}
                 </div>
-
+                <div class="our-works__meta-tags">
+                    <p>Tags: <span>FinTechredesign <br>Web Service</span></p>
+                </div>
             </div>
             <div class="col-12 col-lg-8 mask-container">
                 <img data-name="{{data-name}}" src="{{{image}}}" alt="img" class="img">

@@ -88,7 +88,7 @@ $(function () {
         infinite: true,
         speed: 800,
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [
