@@ -1,4 +1,33 @@
+
 $(function () {
+    $('.prev-slide').click(function () {
+        $('.our-news__slider').slick('slickPrev');
+    });
+
+    $('.next-slide').click(function () {
+        $('.our-news__slider').slick('slickNext');
+    });
+
+    $('.our-news__slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 800,
+        arrows: false,
+        autoplay: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: true,
+                    focusOnSelect: true
+                }
+            }
+        ]
+    });
+
     var nextWork = '';
     var prevWork = '';
     var slickParameters = {
@@ -71,8 +100,6 @@ $(function () {
                     focusOnSelect: true
                 }
             }
-
-
         ]
     });
 
@@ -86,7 +113,6 @@ $(function () {
     $('.our-works__slider').on('afterChange', function(event, slick, currentSlide){
         getWorks((+currentSlide-1), (+currentSlide+1));
     });
-
     });
 
 $(function() {
@@ -109,10 +135,7 @@ $(function() {
         else if (lastSymbol == '.') $(this).find('h2').append('<i class="dot dot--dot"></i>')
         else  $(this).find('h2').append('<i class="dot"></i>')
     });
-
-
 });
-
 
 
 // // Init AOS

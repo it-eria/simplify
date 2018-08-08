@@ -1,0 +1,21 @@
+{{#org-our-news}}
+    <section class="our-news">
+        <div class="container">
+            <div class="our-news__navigation d-flex justify-content-lg-between justify-content-center align-items-center">
+                {{> ../molecules/title-h2-default}}
+                <div class="our-news__navigation__arrows d-flex align-items-center">
+                    <div class="prev-slide"></div>
+                    <div class="next-slide"></div>
+                </div>
+            </div>
+
+            <div class="our-news__slider">
+               {{> ../molecules/our-news-item}}
+            </div>
+            <div class="see-more mr-3 mr-lg-0">
+                <a class="see-more__btn" href="#">More here <img class="ml-1" src="assets/img/more-btn.png"></a>
+            </div>
+        </div>
+        <div class="dot-with-line"></div>
+    </section>
+{{/org-our-news}}

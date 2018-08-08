@@ -135,8 +135,58 @@
         }
       ]
     },
-
+    "org-our-news": {
+      "mol-title-h2-default": {
+        "title": "OUR NEWS"
+      },
+      "mol-our-news-item": [
+        {
+          "image": "assets/img/our-news-1.png",
+          "title": "How to design ICO website",
+          "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+          "date": "May 22, 2018"
+        },
+        {
+          "image": "assets/img/our-news-2.png",
+          "title": "Design Education: Our Experience",
+          "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+          "date": "January 17, 2018"
+        },
+        {
+          "image": "assets/img/our-news-1.png",
+          "title": "How to design ICO website",
+          "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+          "date": "May 22, 2018"
+        }
+      ]
+    },
+    "org-contacts": {
+      "mol-title-h2-default": {
+        "title": "CONTACT US"
+      },
+      "mol-contacts-info": [
+        {
+          "title": "Email:",
+          "value": "box@qubstudio.com",
+          "img": "assets/img/email-icon.png"
+        },
+        {
+          "title": "Phone:",
+          "value": "+38(097)649-70-67 Project Team",
+          "img": "assets/img/phone-icon.png"
+        },
+        {
+          "title": "Address:",
+          "value": "Zavodska 31, Lviv, Ukraine",
+          "img": "assets/img/location-icon.png"
+        }
+      ]
+    },
+    "mol-copyright": {
+      "value": "Copyright ©2018, Simplify Inc. All rights reserved"
+    },
     "foot": {
+
       "vendor-scripts": {
         "bootstrap": true,
         "jquery": true,

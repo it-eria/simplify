@@ -1,0 +1,14 @@
+{{#mol-our-news-item}}
+    <div class="our-news__slider__item flex-lg-row flex-column">
+        {{#image}}
+            <div class="our-news__slider__item__img-block" style="background-image: url({{{image}}})"></div>
+        {{/image}}
+        {{#description}}
+            <div class="our-news__slider__item__description-block">
+                {{#title}}<a href="#"><h3>{{title}}</h3></a>{{/title}}
+                <p>{{{description}}}</p>
+                {{#date}}<span>{{date}}</span>{{/date}}
+            </div>
+        {{/description}}
+    </div>
+{{/mol-our-news-item}}
