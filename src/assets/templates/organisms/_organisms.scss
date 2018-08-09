@@ -405,6 +405,7 @@ a {
   border-bottom: 1px solid #ebeaea;
   position: relative;
 
+
   &__meta-tags {
     p {
       font-family: "GothamPro-Light";
@@ -441,7 +442,7 @@ a {
   }
   &__slider {
     &__item {
-
+      margin: 0 5px;
       outline: none;
       .description {
         .info {
@@ -517,6 +518,10 @@ a {
 }
 
 @media (max-width: 992px) {
+  .who-we-are, .our-works, .our-approach, .client-block {
+    padding: 45px 0 !important;
+  }
+
   .contact-us__main__form-container__content .form-group.message-box textarea {
     font-size: .875rem !important;
     font-family: "GothamPro-Light";
@@ -607,7 +612,7 @@ a {
     }
 
     p {
-      font-size: .875rem !important;
+      font-size: .75rem !important;
     }
 
     span {
@@ -629,7 +634,7 @@ a {
   }
 
   .our-news__slider__item {
-    margin: 0 10px;
+    margin: 0 5px;
   }
   .our-news__slider__item__img-block {
     margin-right: 0 !important;
@@ -660,15 +665,18 @@ a {
     padding: 0 47px;
   }
   .our-works__slider__item .mask-container {
-    padding: 0 10px;
+    padding: 0;
   }
 
   .our-works__meta-tags {
-    padding: 0 50px;
+    padding: 0;
   }
   .our-works__slider__item {
     .description {
-      margin-top: 35px;
+      margin-top: 15px;
+      padding: 0;
+      flex-direction: column;
+      display: block !important;
     }
   }
 
@@ -862,6 +870,19 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+
+  .who-we-are__global-block__default {
+    max-width: none;
+  }
+  .client-block__brands-block {
+    .slick-slide {
+      img {
+        display: block;
+        width: 100%;
+        padding: 10px;
+      }
+    }
+  }
   .our-news__slider__item__img-block {
     min-width: auto !important;
     height: 200px !important;
@@ -876,20 +897,26 @@ a {
     left: calc(-.25rem - 1%) !important;
   }
 
-  .who-we-are, .our-works, .our-approach, .client-block {
-    padding: 45px 0 !important;
-  }
 
+}
   @media screen and (max-width: 480px) {
+    .client-block__brands-block {
+      .slick-slide {
+        img {
+          display: block;
+          width: 100%;
+          padding: 10px;
+          max-width: none;
+        }
+      }
+    }
+
     .dot--question {
       left: -10px !important;
     }
   }
 
-  .who-we-are__global-block__default {
-    max-width: none;
-  }
-}
+
 
 .client-block {
   border-bottom: 1px solid #ebeaea;
@@ -906,7 +933,7 @@ a {
       position: relative;
       outline: none;
       height: auto;
-      width: 200px;
+      width: auto;
       justify-content: center;
       margin: 0 0 70px 0;
       align-items: center;
@@ -1128,10 +1155,12 @@ a {
         position: relative;
         h4 {
           font-size: 1.25rem;
-          font-family: "GothamPro-Medium";
+          font-family: GothamPro-Medium;
           color: #060505;
           margin: 0 0 8px 0;
+          display: flex;
           cursor: pointer;
+          align-items: center;
           img {
             padding-right: 10px;
           }
@@ -1156,13 +1185,7 @@ a {
         .form-group {
           margin-bottom: 20px;
           display: flex;
-          border-bottom: 1px solid #060505;
-          &:focus {
-            display: flex;
-            border-bottom: 1px solid #ec1d24;
-            box-shadow: none;
-            outline: none;
-          }
+
           label {
             font-size: 1rem;
             color: #060505;
@@ -1191,6 +1214,7 @@ a {
 
         .form-group.message-box {
           border: 1px solid #060505;
+          margin-top: 10px;
 
           &:focus {
             border: 1px solid #060505;
@@ -1295,4 +1319,36 @@ input:-webkit-autofill {
     position: absolute !important;
     bottom: 0 !important;
   }
+}
+
+@media screen and (max-width: 380px) {
+  .our-works__slider__item .mask-container img {
+    height: 200px;
+  }
+}
+
+.form-group {
+  position: relative;
+  border-bottom: 0;
+  span {
+    position: absolute;
+    left: 23px;
+    top: 5px;
+  }
+
+  input {
+    width: 100%;
+    padding-left: 5rem;
+    border-bottom: 1px solid #000 !important;
+    &:focus {
+      border-bottom: 1px solid #ec1d24 !important;
+    }
+  }
+}
+
+.client-block__brands-block__logo img {
+  display: block;
+  width: 100%!important;
+  max-width: 120px;
+  padding: 10px;
 }
