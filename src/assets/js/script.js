@@ -103,6 +103,36 @@ $(function () {
         ]
     });
 
+
+
+    $('.about-left').click(function () {
+        $('.about-us__slider__wrapper').slick('slickPrev');
+    });
+
+    $('.about-right').click(function () {
+        $('.about-us__slider__wrapper').slick('slickNext');
+    });
+
+    $('.about-us__slider__wrapper').slick({
+        dots: false,
+        infinite: true,
+        speed: 800,
+        arrows: false,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: true,
+                    focusOnSelect: true
+                }
+            }
+        ]
+    });
+
     function getWorks(index1, index2) {
         prevWork = $('.our-works__slider *[data-slick-index="'+ index1 +'"] .mask-container img').attr('data-name');
         nextWork = $('.our-works__slider *[data-slick-index="'+ index2 +'"] .mask-container img').attr('data-name');
