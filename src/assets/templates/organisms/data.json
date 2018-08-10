@@ -195,5 +195,65 @@
       }
     ]
   },
-  "org-approach-statistic": true
+  "org-approach-statistic": {
+    "mol-approach-statistic-block": [
+      {
+        "logo-img": "assets/img/approach-projects-logo.png",
+        "main-img": "assets/img/about-approach-image.png",
+        "descr-first": "More then",
+        "descr-next": "20+",
+        "descr-last": "Projects"
+      },
+      {
+        "logo-img": "assets/img/approach-works-logo.png",
+        "main-img": "assets/img/about-approach-image2.png",
+        "descr-first": "More then",
+        "descr-next": "30+",
+        "descr-last": "Clients"
+      }
+    ]
+  },
+  "org-news": {
+    "mol-title-h2-default": {
+      "title": "OUR NEWS"
+    },
+    "mol-news-item": [
+      {
+        "title": "How to design ICO website",
+        "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+        "date": "May 22, 2018",
+        "image": "assets/img/news-1.jpg"
+      },
+      {
+        "title": "How to design ICO website",
+        "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+        "date": "May 22, 2018",
+        "image": "assets/img/news-2.png"
+      },
+      {
+        "title": "How to design ICO website",
+        "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+        "date": "May 22, 2018",
+        "image": "assets/img/news-3.png"
+      },
+      {
+        "title": "How to design ICO website",
+        "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+        "date": "May 22, 2018",
+        "image": "assets/img/news-4.png"
+      },
+      {
+        "title": "How to design ICO website",
+        "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+        "date": "May 22, 2018",
+        "image": "assets/img/news-5.png"
+      },
+      {
+        "title": "How to design ICO website",
+        "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+        "date": "May 22, 2018",
+        "image": "assets/img/news-6.png"
+      }
+    ]
+  }
 }

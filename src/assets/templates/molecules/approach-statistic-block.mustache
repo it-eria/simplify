@@ -1,0 +1,24 @@
+{{#mol-approach-statistic-block}}
+    <div class="row approach-statistic__item">
+        {{#logo-img}}
+            <div class="col-6 col-lg-3 align-items-center d-flex">
+                <img class="approach-statistic__item__logo-img " src="{{{logo-img}}}" alt="img"/>
+            </div>
+        {{/logo-img}}
+        {{#main-img}}
+            <div class="col-lg-5 d-lg-block d-none">
+                <img class="approach-statistic__item__main-img" src="{{{main-img}}}" alt="img"/>
+            </div>
+        {{/main-img}}
+        {{#descr-next}}
+
+            <div class="col-6 col-lg-3 approach-statistic__item__counter-wrapper align-items-lg-end align-items-center d-flex">
+                <div class="approach-statistic__item__counter-wrapper__item mb-4 mt-4">
+                    {{#descr-first}}<p>{{descr-first}}</p>{{/descr-first}}
+                    <h2>{{descr-next}}</h2>
+                    {{#descr-last}}<span>{{descr-last}}</span>{{/descr-last}}
+                </div>
+            </div>
+        {{/descr-next}}
+    </div>
+{{/mol-approach-statistic-block}}

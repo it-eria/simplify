@@ -295,7 +295,24 @@
         }
       ]
     },
-    "org-approach-statistic": true,
+    "org-approach-statistic": {
+      "mol-approach-statistic-block": [
+        {
+          "logo-img": "assets/img/approach-projects-logo.png",
+          "main-img": "assets/img/about-approach-image.png",
+          "descr-first": "More then",
+          "descr-next": "20+",
+          "descr-last": "Projects"
+        },
+        {
+          "logo-img": "assets/img/approach-works-logo.png",
+          "main-img": "assets/img/about-approach-image2.png",
+          "descr-first": "More then",
+          "descr-next": "30+",
+          "descr-last": "Clients"
+        }
+      ]
+    },
     "org-clients": {
       "mol-client-item": [
         {
@@ -323,6 +340,120 @@
       "mol-title-h2-default": {
         "title": "CLIENTS"
       }
+    },
+    "org-contacts": {
+      "mol-title-h2-default": {
+        "title": "CONTACT US"
+      },
+      "mol-contacts-info": [
+        {
+          "title": "Email:",
+          "value": "box@qubstudio.com",
+          "img": "assets/img/email-icon.png"
+        },
+        {
+          "title": "Phone:",
+          "value": "+38(097)649-70-67 Project Team",
+          "img": "assets/img/phone-icon.png"
+        },
+        {
+          "title": "Address:",
+          "value": "Zavodska 31, Lviv, Ukraine",
+          "img": "assets/img/location-icon.png"
+        }
+      ]
+    },
+    "mol-copyright": {
+      "value": "Copyright ©2018, Simplify Inc. All rights reserved"
+    },
+    "foot": {
+
+      "vendor-scripts": {
+        "bootstrap": true,
+        "jquery": true,
+        "slick-slider": true
+      }
+    }
+  },
+
+  "p-news": {
+    "head": {
+      "title": "News page"
+    },
+    "org-header-nav": {
+      "mol-logotype": true,
+      "language1": {
+        "mol-language": {
+          "add-class": "d-block d-lg-none"
+        }
+      },
+      "language2": {
+        "mol-language": {
+          "add-class": "d-lg-block d-none"
+        }
+      },
+      "mol-menu-list": [
+        {
+          "url": "#1",
+          "value": "Our work"
+        },
+        {
+          "url": "#2",
+          "value": "About us"
+        },
+        {
+          "url": "#3",
+          "value": "News"
+        },
+        {
+          "url": "#4",
+          "value": "Contact us"
+        }
+      ]
+
+    },
+    "org-news": {
+      "mol-title-h2-default": {
+      "title": "OUR NEWS"
+    },
+      "mol-news-item": [
+        {
+          "title": "How to design ICO website",
+          "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+          "date": "May 22, 2018",
+          "image": "assets/img/news-1.jpg"
+        },
+        {
+          "title": "How to design ICO website",
+          "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+          "date": "May 22, 2018",
+          "image": "assets/img/news-2.png"
+        },
+        {
+          "title": "How to design ICO website",
+          "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+          "date": "May 22, 2018",
+          "image": "assets/img/news-3.png"
+        },
+        {
+          "title": "How to design ICO website",
+          "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+          "date": "May 22, 2018",
+          "image": "assets/img/news-4.png"
+        },
+        {
+          "title": "How to design ICO website",
+          "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+          "date": "May 22, 2018",
+          "image": "assets/img/news-5.png"
+        },
+        {
+          "title": "How to design ICO website",
+          "description": "ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?",
+          "date": "May 22, 2018",
+          "image": "assets/img/news-6.png"
+        }
+      ]
     },
     "org-contacts": {
       "mol-title-h2-default": {
