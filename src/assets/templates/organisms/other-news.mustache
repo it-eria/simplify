@@ -1,0 +1,33 @@
+{{#org-other-news}}
+    <section class="other-news">
+        <div class="container">
+            <div class="other-news__navigation d-lg-flex justify-content-lg-between align-items-center">
+                {{> ../molecules/title-h2-default}}
+                <div class="other-news__navigation__arrows d-none d-lg-flex align-items-center">
+                    <div class="prev-slide" id="other-news-left"></div>
+                    <div class="next-slide" id="other-news-right"></div>
+                </div>
+            </div>
+            <div class="other-news__info-block row p-0 justify-content-lg-between flex-column-reverse flex-lg-row">
+                {{#description-content}}
+                    <div class="col-12 col-lg-3 min-h-description-news flex-column d-flex justify-content-lg-between">
+                        <div class="other-news__info-block__description">
+                            {{#description-title}}<h3>{{description-title}}</h3>{{/description-title}}
+                            {{{description-content}}}
+                            {{#description-date}}<span>{{description-date}}</span>{{/description-date}}
+                        </div>
+
+                        <div class="see-more justify-content-start">
+                            <a class="see-more__btn" href="#">More here <img class="ml-1" src="assets/img/more-btn.png"></a>
+                        </div>
+                    </div>
+                {{/description-content}}
+                <div class="col-lg-6 col-12">
+                    <div class="other-news__info-block__slider">
+                        {{> ../molecules/other-news-slide}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{/org-other-news}}

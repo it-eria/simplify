@@ -375,7 +375,6 @@
       }
     }
   },
-
   "p-news": {
     "head": {
       "title": "News page"
@@ -454,6 +453,121 @@
           "image": "assets/img/news-6.png"
         }
       ]
+    },
+    "org-contacts": {
+      "mol-title-h2-default": {
+        "title": "CONTACT US"
+      },
+      "mol-contacts-info": [
+        {
+          "title": "Email:",
+          "value": "box@qubstudio.com",
+          "img": "assets/img/email-icon.png"
+        },
+        {
+          "title": "Phone:",
+          "value": "+38(097)649-70-67 Project Team",
+          "img": "assets/img/phone-icon.png"
+        },
+        {
+          "title": "Address:",
+          "value": "Zavodska 31, Lviv, Ukraine",
+          "img": "assets/img/location-icon.png"
+        }
+      ]
+    },
+    "mol-copyright": {
+      "value": "Copyright ©2018, Simplify Inc. All rights reserved"
+    },
+    "foot": {
+
+      "vendor-scripts": {
+        "bootstrap": true,
+        "jquery": true,
+        "slick-slider": true
+      }
+    }
+  },
+  "p-news-single": {
+    "head": {
+      "title": "News page"
+    },
+    "org-header-nav": {
+      "mol-logotype": true,
+      "language1": {
+        "mol-language": {
+          "add-class": "d-block d-lg-none"
+        }
+      },
+      "language2": {
+        "mol-language": {
+          "add-class": "d-lg-block d-none"
+        }
+      },
+      "mol-menu-list": [
+        {
+          "url": "#1",
+          "value": "Our work"
+        },
+        {
+          "url": "#2",
+          "value": "About us"
+        },
+        {
+          "url": "#3",
+          "value": "News"
+        },
+        {
+          "url": "#4",
+          "value": "Contact us"
+        }
+      ]
+
+    },
+    "org-news-single": {
+      "mol-title-h2-default": {
+        "title": "OUR NEW TOP UX AGENCY AWARD."
+      },
+      "mol-news-single-block": [
+        {
+          "image": "assets/img/open-news-page-image-1.jpg",
+          "description": "<p>'Design that works' is QubStudio tag line. The digital design company based in Lviv, Ukraine, currently employs 25 people, and its work is mostly on UX/UI design. QubStudio is the brainchild of Lyubomyr Koval, a web developer, and Victor Fedyuk, a designer and artist. With a mutual passion for contemporary web design and a shared business sense, the friends decided to get together and fund the company over seven years ago. First there were two; now they are 25 and only last year they moved into a bigger office to allow for more growth and creativity.</p><p>he hard working Ukrainian team knows that great things don't 'just happen.' On its website, it lists a code of rules, which it uses to achieve what its customers want: creative and effective user interfaces. The page opens with a quote from contemporary Artist Andrew Hendrixson: 'Anyone who has ever made anything of importance was disciplined.'</p>"
+        },
+        {
+          "image": "assets/img/open-news-page-image-2.jpg",
+          "description": "<p>'Design that works' is QubStudio tag line. The digital design company based in Lviv, Ukraine, currently employs 25 people, and its work is mostly on UX/UI design. QubStudio is the brainchild of Lyubomyr Koval, a web developer, and Victor Fedyuk, a designer and artist. With a mutual passion for contemporary web design and a shared business sense, the friends decided to get together and fund the company over seven years ago. First there were two; now they are 25 and only last year they moved into a bigger office to allow for more growth and creativity.</p><p>he hard working Ukrainian team knows that great things don't 'just happen.' On its website, it lists a code of rules, which it uses to achieve what its customers want: creative and effective user interfaces. The page opens with a quote from contemporary Artist Andrew Hendrixson: 'Anyone who has ever made anything of importance was disciplined.'</p>"
+        },
+        {
+          "image": "assets/img/open-news-page-image-3.jpg",
+          "description": "<p>'Design that works' is QubStudio tag line. The digital design company based in Lviv, Ukraine, currently employs 25 people, and its work is mostly on UX/UI design. QubStudio is the brainchild of Lyubomyr Koval, a web developer, and Victor Fedyuk, a designer and artist. With a mutual passion for contemporary web design and a shared business sense, the friends decided to get together and fund the company over seven years ago. First there were two; now they are 25 and only last year they moved into a bigger office to allow for more growth and creativity.</p><p>he hard working Ukrainian team knows that great things don't 'just happen.' On its website, it lists a code of rules, which it uses to achieve what its customers want: creative and effective user interfaces. The page opens with a quote from contemporary Artist Andrew Hendrixson: 'Anyone who has ever made anything of importance was disciplined.'</p>"
+        },
+        {
+          "image": "assets/img/open-news-page-image-4.jpg",
+          "description": "<p>'Design that works' is QubStudio tag line. The digital design company based in Lviv, Ukraine, currently employs 25 people, and its work is mostly on UX/UI design. QubStudio is the brainchild of Lyubomyr Koval, a web developer, and Victor Fedyuk, a designer and artist. With a mutual passion for contemporary web design and a shared business sense, the friends decided to get together and fund the company over seven years ago. First there were two; now they are 25 and only last year they moved into a bigger office to allow for more growth and creativity.</p><p>he hard working Ukrainian team knows that great things don't 'just happen.' On its website, it lists a code of rules, which it uses to achieve what its customers want: creative and effective user interfaces. The page opens with a quote from contemporary Artist Andrew Hendrixson: 'Anyone who has ever made anything of importance was disciplined.'</p>"
+        }
+      ]
+    },
+    "org-other-news": {
+      "mol-title-h2-default": {
+        "title": "OTHER NEWS!"
+      },
+      "mol-other-news-slide": [
+        {
+          "image": "assets/img/open-news-page-slider.jpg"
+        },
+        {
+          "image": "assets/img/open-news-page-slider.jpg"
+        },
+        {
+          "image": "assets/img/open-news-page-slider.jpg"
+        },
+        {
+          "image": "assets/img/open-news-page-slider.jpg"
+        }
+      ],
+      "description-title": "How to design ICO website",
+      "description-content": "<p>ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?</p>",
+      "description-date": "May 22, 2018"
     },
     "org-contacts": {
       "mol-title-h2-default": {
