@@ -242,5 +242,31 @@
     {
       "image": "assets/img/open-news-page-slider.jpg"
     }
+  ],
+  "mol-portfolio-list-item": [
+    {
+      "title": "Єкухня",
+      "url": "ekyhnya.com.ua",
+      "tags": "<span>FinTechredesign <br>Web Service</span>",
+      "img": "assets/img/e-kitchen.png"
+    },
+    {
+      "title": "Violet Art",
+      "url": "ekyhnya.com.ua",
+      "tags": "<span>FinTechredesign <br>Web Service</span>",
+      "img": "assets/img/e-kitchen.png"
+    },
+    {
+      "title": "Prima Dent",
+      "url": "ekyhnya.com.ua",
+      "tags": "<span>FinTechredesign <br>Web Service</span>",
+      "img": "assets/img/e-kitchen.png"
+    },
+    {
+      "title": "Total art school ",
+      "url": "ekyhnya.com.ua",
+      "tags": "<span>FinTechredesign <br>Web Service</span>",
+      "img": "assets/img/e-kitchen.png"
+    }
   ]
 }

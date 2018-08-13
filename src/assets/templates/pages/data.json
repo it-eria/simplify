@@ -490,7 +490,7 @@
   },
   "p-news-single": {
     "head": {
-      "title": "News page"
+      "title": "News single page"
     },
     "org-header-nav": {
       "mol-logotype": true,
@@ -568,6 +568,105 @@
       "description-title": "How to design ICO website",
       "description-content": "<p>ICO is quite a buzzword these days. But is it really a silver bullet and how do you actually organize and design good ICO website?</p>",
       "description-date": "May 22, 2018"
+    },
+    "org-contacts": {
+      "mol-title-h2-default": {
+        "title": "CONTACT US"
+      },
+      "mol-contacts-info": [
+        {
+          "title": "Email:",
+          "value": "box@qubstudio.com",
+          "img": "assets/img/email-icon.png"
+        },
+        {
+          "title": "Phone:",
+          "value": "+38(097)649-70-67 Project Team",
+          "img": "assets/img/phone-icon.png"
+        },
+        {
+          "title": "Address:",
+          "value": "Zavodska 31, Lviv, Ukraine",
+          "img": "assets/img/location-icon.png"
+        }
+      ]
+    },
+    "mol-copyright": {
+      "value": "Copyright ©2018, Simplify Inc. All rights reserved"
+    },
+    "foot": {
+
+      "vendor-scripts": {
+        "bootstrap": true,
+        "jquery": true,
+        "slick-slider": true
+      }
+    }
+  },
+
+  "p-portfolio": {
+    "head": {
+      "title": "Portfolio page"
+    },
+    "org-header-nav": {
+      "mol-logotype": true,
+      "language1": {
+        "mol-language": {
+          "add-class": "d-block d-lg-none"
+        }
+      },
+      "language2": {
+        "mol-language": {
+          "add-class": "d-lg-block d-none"
+        }
+      },
+      "mol-menu-list": [
+        {
+          "url": "#1",
+          "value": "Our work"
+        },
+        {
+          "url": "#2",
+          "value": "About us"
+        },
+        {
+          "url": "#3",
+          "value": "News"
+        },
+        {
+          "url": "#4",
+          "value": "Contact us"
+        }
+      ]
+
+    },
+    "org-portfolio-block": {
+      "mol-portfolio-list-item": [
+        {
+          "title": "Єкухня",
+          "url": "ekyhnya.com.ua",
+          "tags": "<span>FinTechredesign <br>Web Service</span>",
+          "img": "assets/img/e-kitchen.png"
+        },
+        {
+          "title": "Violet Art",
+          "url": "ekyhnya.com.ua",
+          "tags": "<span>FinTechredesign <br>Web Service</span>",
+          "img": "assets/img/e-kitchen.png"
+        },
+        {
+          "title": "Prima Dent",
+          "url": "ekyhnya.com.ua",
+          "tags": "<span>FinTechredesign <br>Web Service</span>",
+          "img": "assets/img/e-kitchen.png"
+        },
+        {
+          "title": "Total art school ",
+          "url": "ekyhnya.com.ua",
+          "tags": "<span>FinTechredesign <br>Web Service</span>",
+          "img": "assets/img/e-kitchen.png"
+        }
+      ]
     },
     "org-contacts": {
       "mol-title-h2-default": {
