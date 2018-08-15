@@ -1,0 +1,29 @@
+{{#org-project}}
+    <section class="project">
+        <div class="container">
+            <div class="project__info">
+                {{#proj-title}}
+                    <div class=" align-items-center d-flex flex-lg-wrap">
+                        <div class="info text-right project__info__title">
+                            <h2>{{proj-title}}</h2>
+                            {{#proj-url}}<a href="{{{proj-url}}}"
+                                            class="project__info__title__link d-none d-lg-block">{{{proj-url}}}</a>{{/proj-url}}
+                        </div>
+                    </div>
+                {{/proj-title}}
+                {{#proj-img}}
+                    <div class="project__info__background">
+                        <a href="{{{proj-url}}}"><img src="{{{proj-img}}}" alt="image"/></a>
+                    </div>
+                {{/proj-img}}
+                <div class="mt-130">
+                    {{> ../molecules/title-h2-default}}
+                    <div class="project__info__project">
+                        {{> ../molecules/project-info-description}}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+{{/org-project}}

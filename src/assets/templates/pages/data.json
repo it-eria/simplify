@@ -182,6 +182,7 @@
         }
       ]
     },
+    "mol-gmap": true,
     "mol-copyright": {
       "value": "Copyright ©2018, Simplify Inc. All rights reserved"
     },
@@ -363,6 +364,7 @@
         }
       ]
     },
+    "mol-gmap": true,
     "mol-copyright": {
       "value": "Copyright ©2018, Simplify Inc. All rights reserved"
     },
@@ -476,6 +478,7 @@
         }
       ]
     },
+    "mol-gmap": true,
     "mol-copyright": {
       "value": "Copyright ©2018, Simplify Inc. All rights reserved"
     },
@@ -591,6 +594,7 @@
         }
       ]
     },
+    "mol-gmap": true,
     "mol-copyright": {
       "value": "Copyright ©2018, Simplify Inc. All rights reserved"
     },
@@ -603,7 +607,6 @@
       }
     }
   },
-
   "p-portfolio": {
     "head": {
       "title": "Portfolio page"
@@ -652,19 +655,19 @@
           "title": "Violet Art",
           "url": "ekyhnya.com.ua",
           "tags": "<span>FinTechredesign <br>Web Service</span>",
-          "img": "assets/img/e-kitchen.png"
+          "img": "assets/img/proj-2.jpg"
         },
         {
           "title": "Prima Dent",
           "url": "ekyhnya.com.ua",
           "tags": "<span>FinTechredesign <br>Web Service</span>",
-          "img": "assets/img/e-kitchen.png"
+          "img": "assets/img/proj-3.jpg"
         },
         {
           "title": "Total art school ",
           "url": "ekyhnya.com.ua",
           "tags": "<span>FinTechredesign <br>Web Service</span>",
-          "img": "assets/img/e-kitchen.png"
+          "img": "assets/img/proj-4.jpg"
         }
       ]
     },
@@ -690,6 +693,7 @@
         }
       ]
     },
+    "mol-gmap": true,
     "mol-copyright": {
       "value": "Copyright ©2018, Simplify Inc. All rights reserved"
     },
@@ -699,6 +703,259 @@
         "bootstrap": true,
         "jquery": true,
         "slick-slider": true
+      }
+    }
+  },
+  "p-project": {
+    "head": {
+      "title": "Project page"
+    },
+    "org-header-nav": {
+      "mol-logotype": true,
+      "language1": {
+        "mol-language": {
+          "add-class": "d-block d-lg-none"
+        }
+      },
+      "language2": {
+        "mol-language": {
+          "add-class": "d-lg-block d-none"
+        }
+      },
+      "mol-menu-list": [
+        {
+          "url": "#1",
+          "value": "Our work"
+        },
+        {
+          "url": "#2",
+          "value": "About us"
+        },
+        {
+          "url": "#3",
+          "value": "News"
+        },
+        {
+          "url": "#4",
+          "value": "Contact us"
+        }
+      ]
+
+    },
+    "org-project": {
+      "mol-title-h2-default": {
+        "title": "ABOUT THE PROJECT"
+      },
+      "proj-title": "Єкухня",
+      "proj-url": "ekukhnja.com.ua",
+      "proj-img": "assets/img/e-kitchen.png",
+      "mol-project-info-description": [
+        {
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+          "url": "ekukhnja.com.ua"
+        },
+        {
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+          "url": "ekukhnja.com.ua"
+        }
+      ]
+    },
+    "org-project-design": {
+      "mol-title-h2-default": {
+        "title": "RESPONSIVE DESIGN"
+      },
+      "mol-project-design-block": {
+        "description": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p> <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
+        "url": "ekukhnja.com.ua",
+        "image": "assets/img/design-img.png"
+      }
+    },
+    "org-wareframe": {
+      "mol-title-h2-default": {
+        "title": "WAREFRAME"
+      },
+      "mol-wareframe-block": {
+        "description": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>",
+        "url": "http://#.com",
+        "img-mob": "assets/img/mobile-wareframe.png",
+        "img-desc": "assets/img/wareframe-bg.png"
+      }
+    },
+    "org-project-desktop": {
+      "mol-project-desctop-info": {
+        "description": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>",
+        "url": "ekukhnja.com.ua"
+      },
+      "mol-title-h2-default": {
+        "title": "DESKTOP VERSION"
+      },
+      "mol-project-desctop-slider-item": [
+        {
+          "desc-img": "assets/img/e-kitchen.png",
+          "mob-img": "assets/img/mobile-slider-image.png"
+        },
+        {
+          "desc-img": "assets/img/e-kitchen.png",
+          "mob-img": "assets/img/mobile-slider-image.png"
+        },
+        {
+          "desc-img": "assets/img/e-kitchen.png",
+          "mob-img": "assets/img/mobile-slider-image.png"
+        },
+        {
+          "desc-img": "assets/img/e-kitchen.png",
+          "mob-img": "assets/img/mobile-slider-image.png"
+        }
+      ]
+
+    },
+    "org-project-mobile": {
+      "mol-project-mobile-content": {
+        "description": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>",
+        "url": "ekukhnja.com.ua",
+        "img": "assets/img/mobile-image.png"
+      },
+      "mol-title-h2-default":{
+        "title": "MOBILE VERSION"
+      }
+
+    },
+    "org-our-works": {
+      "class-custom": "d-none",
+      "class-no-border": "border-bottom-0",
+      "mol-title-h2-default": {
+        "title": "OTHER WORKS"
+      },
+      "mol-our-works-slide": [
+        {
+          "title": "Єкухня",
+          "url": "ekyhnya.com.ua",
+          "image": "assets/img/e-kitchen.png",
+          "data-name": "Єкухня"
+        },
+        {
+          "title": "ГалРес",
+          "url": "iteria.com.ua/galres",
+          "image": "assets/img/galres.jpg",
+          "data-name": "ГалРес"
+        },
+        {
+          "title": "Єкухня",
+          "url": "ekyhnya.com.ua",
+          "image": "assets/img/e-kitchen.png",
+          "data-name": "Єкухня"
+        }
+      ]
+    },
+    "mol-gmap": true,
+    "org-contacts": {
+      "mol-title-h2-default": {
+        "title": "CONTACT US"
+      },
+      "mol-contacts-info": [
+        {
+          "title": "Email:",
+          "value": "box@qubstudio.com",
+          "img": "assets/img/email-icon.png"
+        },
+        {
+          "title": "Phone:",
+          "value": "+38(097)649-70-67 Project Team",
+          "img": "assets/img/phone-icon.png"
+        },
+        {
+          "title": "Address:",
+          "value": "Zavodska 31, Lviv, Ukraine",
+          "img": "assets/img/location-icon.png"
+        }
+      ]
+    },
+
+    "mol-copyright": {
+      "value": "Copyright ©2018, Simplify Inc. All rights reserved"
+    },
+    "foot": {
+
+      "vendor-scripts": {
+        "bootstrap": true,
+        "jquery": true,
+        "slick-slider": true
+      }
+    }
+  },
+  "p-contact-us": {
+    "head": {
+      "title": "Project page"
+    },
+    "org-header-nav": {
+      "mol-logotype": true,
+      "language1": {
+        "mol-language": {
+          "add-class": "d-block d-lg-none"
+        }
+      },
+      "language2": {
+        "mol-language": {
+          "add-class": "d-lg-block d-none"
+        }
+      },
+      "mol-menu-list": [
+        {
+          "url": "#1",
+          "value": "Our work"
+        },
+        {
+          "url": "#2",
+          "value": "About us"
+        },
+        {
+          "url": "#3",
+          "value": "News"
+        },
+        {
+          "url": "#4",
+          "value": "Contact us"
+        }
+      ]
+
+    },
+
+    "org-contacts": {
+      "mol-title-h2-default": {
+        "title": "CONTACT US"
+      },
+      "left-circle-class": "left-circle-class",
+      "mol-contacts-info": [
+        {
+          "title": "Email:",
+          "value": "box@qubstudio.com",
+          "img": "assets/img/email-icon.png"
+        },
+        {
+          "title": "Phone:",
+          "value": "+38(097)649-70-67 Project Team",
+          "img": "assets/img/phone-icon.png"
+        },
+        {
+          "title": "Address:",
+          "value": "Zavodska 31, Lviv, Ukraine",
+          "img": "assets/img/location-icon.png"
+        }
+      ]
+    },
+    "mol-gmap": {
+      "map-class": "map"
+    },
+    "mol-copyright": {
+      "value": "Copyright ©2018, Simplify Inc. All rights reserved",
+      "copyright-circle-class": "circle-style"
+    },
+    "foot": {
+      "vendor-scripts": {
+        "bootstrap": true,
+        "jquery": true,
+        "slick-slider": true,
+        "map": true
       }
     }
   }

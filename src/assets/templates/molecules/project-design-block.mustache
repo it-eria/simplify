@@ -1,0 +1,16 @@
+{{#mol-project-design-block}}
+    {{#description}}
+        <div class="project-design__main">
+            <div class="project-design__main__info col-12 col-lg-5 pt-3 pl-0 pr-0">
+                {{{description}}}
+                {{#url}}<span><a href="{{{url}}}">{{{url}}}</a></span>{{/url}}
+            </div>
+
+            {{#image}}
+                <div class="project-design__main__image col-12 col-lg-6 pl-0 pr-0">
+                    <a href="{{{url}}}"><img src="{{{image}}}"/></a>
+                </div>
+            {{/image}}
+        </div>
+    {{/description}}
+{{/mol-project-design-block}}

@@ -1,0 +1,17 @@
+{{#mol-wareframe-block}}
+    {{#description}}
+        <div class="wareframe__info">
+            <div class="wareframe__info__description">
+                {{{description}}}
+            </div>
+        </div>
+    {{/description}}
+    {{#img-desc}}
+        <div class="wareframe__image">
+            <a href="{{{url}}}">
+                <img src="{{{img-desc}}}" alt="image" class="d-none d-lg-block"/>
+                {{#img-mob}}<img src="{{{img-mob}}}" alt="image" class="d-block d-lg-none"/>{{/img-mob}}
+            </a>
+        </div>
+    {{/img-desc}}
+{{/mol-wareframe-block}}

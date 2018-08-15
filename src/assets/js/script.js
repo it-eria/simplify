@@ -103,6 +103,23 @@ $(function () {
         ]
     });
 
+    $('.project-desktop__main__arrows__left').click(function () {
+        $('.project-desktop__slider').slick('slickPrev');
+    });
+
+    $('.project-desktop__main__arrows__right').click(function () {
+        $('.project-desktop__slider').slick('slickNext');
+    });
+
+    $('.project-desktop__slider').slick({
+        autoplaySpeed: 3000,
+        autoplay: true,
+        centerMode: true,
+        focusOnSelect: true,
+        arrows: false,
+        slidesToScroll: 1
+    });
+
     $('#other-news-left').click(function () {
         $('.other-news__info-block__slider').slick('slickPrev');
     });

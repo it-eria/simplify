@@ -313,20 +313,98 @@
         "title": "Violet Art",
         "url": "ekyhnya.com.ua",
         "tags": "<span>FinTechredesign <br>Web Service</span>",
-        "img": "assets/img/e-kitchen.png"
+        "img": "assets/img/proj-2.jpg"
       },
       {
         "title": "Prima Dent",
         "url": "ekyhnya.com.ua",
         "tags": "<span>FinTechredesign <br>Web Service</span>",
-        "img": "assets/img/e-kitchen.png"
+        "img": "assets/img/proj-3.jpg"
       },
       {
         "title": "Total art school ",
         "url": "ekyhnya.com.ua",
         "tags": "<span>FinTechredesign <br>Web Service</span>",
-        "img": "assets/img/e-kitchen.png"
+        "img": "assets/img/proj-4.jpg"
       }
     ]
+  },
+  "org-project": {
+    "mol-title-h2-default": {
+      "title": "ABOUT THE PROJECT"
+    },
+    "proj-title": "Єкухня",
+    "proj-url": "ekukhnja.com.ua",
+    "proj-img": "assets/img/e-kitchen.png",
+    "mol-project-info-description": [
+      {
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+        "url": "ekukhnja.com.ua"
+      },
+      {
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+        "url": "ekukhnja.com.ua"
+      }
+    ]
+  },
+  "org-project-design": {
+    "mol-title-h2-default": {
+      "title": "RESPONSIVE DESIGN"
+    },
+    "mol-project-design-block": {
+      "description": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p> <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
+      "url": "ekukhnja.com.ua",
+      "image": "assets/img/design-img.png"
+    }
+  },
+  "org-wareframe": {
+    "mol-title-h2-default": {
+      "title": "WAREFRAME"
+    },
+    "mol-wareframe-block": {
+      "description": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>",
+      "url": "http://#.com",
+      "img-mob": "assets/img/mobile-wareframe.png",
+      "img-desc": "assets/img/wareframe-bg.png"
+    }
+  },
+  "org-project-desktop": {
+    "mol-project-desctop-info": {
+      "description": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>",
+      "url": "ekukhnja.com.ua"
+    },
+    "mol-title-h2-default": {
+      "title": "DESKTOP VERSION"
+    },
+    "mol-project-desctop-slider-item": [
+      {
+        "desc-img": "assets/img/e-kitchen.png",
+        "mob-img": "assets/img/mobile-slider-image.png"
+      },
+      {
+        "desc-img": "assets/img/e-kitchen.png",
+        "mob-img": "assets/img/mobile-slider-image.png"
+      },
+      {
+        "desc-img": "assets/img/e-kitchen.png",
+        "mob-img": "assets/img/mobile-slider-image.png"
+      },
+      {
+        "desc-img": "assets/img/e-kitchen.png",
+        "mob-img": "assets/img/mobile-slider-image.png"
+      }
+    ]
+
+  },
+  "org-project-mobile": {
+    "mol-project-mobile-content": {
+      "description": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>",
+      "url": "ekukhnja.com.ua",
+      "img": "assets/img/mobile-image.png"
+    },
+    "mol-title-h2-default":{
+      "title": "MOBILE VERSION"
+    }
+
   }
 }
