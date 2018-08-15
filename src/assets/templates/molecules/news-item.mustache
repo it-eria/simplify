@@ -1,9 +1,5 @@
 {{#mol-news-item}}
-
     <div class="news__wrapper d-flex row">
-
-
-
         <div class="news__wrapper__content flex-column d-flex col-12  col-lg-4 position-relative">
             <div class="news__wrapper__content__description">
                 {{#title}}
@@ -14,15 +10,15 @@
                 <div class="d-flex justify-content-between align-items-lg-center align-items-center">
                     <span>{{date}}</span>
                     <div class="see-more d-block d-lg-none">
-                        <a class="see-more__btn" href="#">More here <img class="ml-1" src="assets/img/more-btn.png"></a>
+                        <a class="see-more__btn" href="/news-single">More here <img class="ml-1" src="assets/img/more-btn.png"></a>
                     </div>
                 </div>
             </div>
             <div class="see-more d-none d-lg-block">
-                <a class="see-more__btn" href="#">More here <img class="ml-1" src="assets/img/more-btn.png"></a>
+                <a class="see-more__btn" href="/news-single">More here <img class="ml-1" src="assets/img/more-btn.png"></a>
             </div>
         </div>
-        {{#image}}<a href="#" class="news__wrapper__image col-12 col-lg-7 "
+        {{#image}}<a href="/news-single" class="news__wrapper__image col-12 col-lg-7 "
                      style=" background-image: url({{image}});"></a>{{/image}}
         <div class="dot-with-line"></div>
     </div>

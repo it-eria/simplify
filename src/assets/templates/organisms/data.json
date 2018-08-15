@@ -13,22 +13,22 @@
     },
     "mol-menu-list": [
       {
-        "url": "#1",
+        "url": "/portfolio",
         "value": "Our work"
       },
       {
-        "url": "#2",
+        "url": "/about",
         "value": "About us"
       },
       {
-        "url": "#3",
+        "url": "/news",
         "value": "News"
       },
       {
-        "url": "#4",
+        "url": "/contact-us",
         "value": "Contact us"
       }
-    ]
+    ],
   },
   "org-who-we-are": {
     "mol-title-default": {
